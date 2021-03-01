@@ -1,46 +1,54 @@
 <html>
     <head>
         <title>Detail</title>
+        <link rel="stylesheet" href="styles\common.css">
+        <link rel="stylesheet" href="styles\detail.css">
     </head>
-<div>
+
 <body>
-    
+ <div id="Main">   
         <header>
          <div>
-             <img  width="150" height="100" alt="logo" src="assests\images\logo.png">
+             <img  alt="logo"class="logo" src="assests\images\logo.png">
             
              <a href="login.html">Login</a>
           </div>
          </header>
     <div>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image" alt="Radisson Blu">
         <br>
         <div>
-            <form action="">
-                <label for="Number">Adults:</label>
-                <input type="number" id="Number" >
-                <br>
-                <label for="text">Name:</label>
-                <input type="text" id="text" autocomplete="off" required>
-                <br>
+            <form action="payment.html" method="GET" target="_self">
+                <div>
+                <label for="adult">Adults:</label>
+                <input type="number" name="adult" id="Number" min="1" >
+                </div>
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="text" autocomplete="off" required>
+                <div>
+                <div>
                 <label for="Date1">From Date:</label>
-                <input type="date" id="Date1" required>
-                <br>
+                <input type="date" id="Date1" name="Data1" required>
+                </div>
+                <div>
                 <label for="Date2">To Date:</label>
-                <input type="date" id="Date2" required>
-                <br>
+                <input type="date" id="Date2" name="Data2" required>
+                </div>
+                <div>
                 <label for="t1">Total:</label>
-                <input type="text" id="t1" readonly>
-                <br>
-                <input type="Submit" name="Book Now" id="submit">
+                <input type="text" id="t1" name="t1" readonly>
+                </div>
+               <input type="Submit" name="Book Now" id="submit">
             </form>
         </div>
-        <a href="payment.html">Book Now</a>
-        <h2>Radisson Blu Hotel</h2>
-        5 Star
+        <div>
+            <h2>Radisson Blu Hotel</h2>
+             5 Star
+        </div>
         <br>
+        <div>
         AMENITIES
-        <br>
         <ul>
             <li>Room Servuce</li>
             <li>Restaurant</li>
@@ -48,21 +56,24 @@
             <li>Fitness Center </li>
             <li>Pool</li>
         </ul>
-        <br>
+        
+    </div>
+    <div>
         <h5>DESCRIPTION</h5>
         Wellcomer to Our hotel Its grreat to seee you here .
+    </div>
     </div>
         <Footer>
             <a href="contact.html">Contact Us</a>
             <br>
-            <img height="20" width="22" src="assests\images\facebook.png" alt="Facebook">
-            <img height="20" width="22" src="assests\images\instagram.png" alt="Instagram">
-            <img height="20" width="22" src="assests\images\twitter.png" alt="Twitter ">
+            <img class="SocialMediaImage" src="assests\images\facebook.png" alt="Facebook">
+            <img class="SocialMediaImage" src="assests\images\instagram.png" alt="Instagram">
+            <img class="SocialMediaImage" src="assests\images\twitter.png" alt="Twitter ">
             <br>
             &copy;  2020 ROOM SEARCH PVT.LTD.
         </Footer>
-    
+ </div>    
 </body>
-</div>
+
 
 </html>
