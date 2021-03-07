@@ -1,97 +1,83 @@
-<html>
-
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title>List</title>
-    <link rel="stylesheet" href="styles\common.css">
-    <link rel="stylesheet" href="styles\list.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div id="Main">
-
-        <header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <title>List</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/list.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+    </head>
+    <body>
+        <div id="mainContainer">
+            <header>
+                <a href="index.html"><img src="assests\images\logo.png" alt="logo" class="logo" ></a>
+                <a href="login.html" target="_self" class="login">Login</a>
+            </header>
             <div>
-                <a href="index.html"><img alt="logo" class="logo" src="assests\images\logo.png"></a>
+                <ul id="list">
+                    <li><a href="#list-view" class="li" >List View</a></li>
+                    <li><a href="#map-view" class="li" >Map View</a></li>
+                </ul>
+                    <div id="list-view">
+                        <div id="card1">
+                            <a href="detail.html">
+                            <div class="container">
+                                <div>
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 200px; width: 250px;">
+                                </div>
+                                <div class="right">
+                                    <h3>Radisson Blu Hotel</h3>
+                                    5 Star
+                                    <br><br>
+                                    Indore
+                                </div>
+                            </div>
+                            </a>
+                        </div> 
+                        <div id="card2">
+                            <div class="container">
+                                <div>
+                                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" style="height: 200px; width: 250px;">
+                                    </div>
+                                    <div class="right">
+                                        <h3>Hotel Marriot</h3>
+                                        4.5 Star
+                                        <br><br>
+                                         Indore
+                                    </div>
+                            </div>
+                        </div>
+                        <div id="card3" >
+                            <div class="container">
+                                <div>
+                                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" style="height: 200px; width: 250px;">
+                                    </div>
+                                    <div class="right">
+                                        <h3>Hotel Grand Bhagwati Palace</h3>
+                                        4.0 Star
+                                        <br><br>
+                                        Indore
+                                    </div>
 
-                <a href="login.html" target="_self">Login</a>
+                                    
+                            </div>  
+                        </div>
+                    </div>
+                    <div id="map-view">
+                        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+                        <br>
+                        MAP VIEW
+                    </div>
             </div>
-        </header>
-        <div>
-            <ul id="list">
-                <li><a href="#list-view" class="li">List View</a> </li>
-                <li><a href="#map-view" class="li">Map View</a> </li>
-            </ul>
-            <div id="list-view">
-                <div id="c1">
-                    <a href="detail.html">
-                        <div class="container">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="Image" alt="Radisson Blu">
-                        </div>
-                        <div class="right">
-                            <h3>Radisson Blu Hotel</h3>
-                             5 Star
-                            <br>
-                            New Delhi
-                        </div>
-                    </a>
-
+            <footer>
+                <a href="contact.html" target="_self" class="contact">Contact Us</a>
+                <div class="socialmedia">
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" style="height: 20px; width: 22px;"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" style="height: 20px; width: 22px;"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" style="height: 20px; width: 22px;"></a>
                 </div>
-                <div id="c2">
-                    <div class="container">
-                        <div>
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" class="Image"alt="The Lalit New Delhi">
-                        </div>
-                        <div class="right">
-                            <h3>The Lalit New Delhi</h3>
-                             4.5
-                            <br>
-                            New Delhi
-                        </div>
-                    </div>     
-                </div>
-                <div id="c3">
-                    <div class="container">
-                        <div>
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" class="Image" alt="Taj Palace">
-                        </div>
-                        <div class="right">
-                            <h3>Taj Palace</h3>
-                            4.0
-                              <br>
-                             New Delhi
-
-                        </div>
-                    </div>      
-                </div>
-            </div>
-            <div id="map-view">
-                <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map View ">
-                <br>
-                MAP VIEW
-            </div>
+                <p class="copyright">&copy; 2020 ROOM SEARCH PVT LTD.</p>
+            </footer>
         </div>
-        <Footer>
-            <a href="contact.html" target="_self" class="contact">Contact Us</a>
-            <div class="SocialMedia">
-
-                <a href="https://facebook.com/" target="_blank"><img class="SocialMediaImage" src="assests\images\facebook.png"
-                        alt="Facebook">
-                </a>
-                <a href="https://Instagram.com/"target="_blank"><img class="SocialMediaImage" src="assests\images\instagram.png"
-                        alt="Instagram">
-                </a>
-                <a href="https://twitter.com/"target="_blank"><img class="SocialMediaImage" src="assests\images\twitter.png"
-                        alt="Twitter ">
-                </a>
-            </div>
-            &copy; 2020 ROOM SEARCH PVT.LTD.
-
-        </Footer>
-    </div>
-</body>
-
-
+    </body>
 </html>

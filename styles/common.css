@@ -1,55 +1,63 @@
-body,html,#Main{
+body, html, #mainContainer{
     height: 100%;
     width: 100%;
 }
-.login{
-    margin-right:2px;
-    order: 3;
-}
 
-.contact{
-    margin-left: 2%;  
-}
-.Copyright{
-    font-size: 10px;
-    order: 2;
-}
-.socialmedia{
-    order: 3;
-    margin-right: 2%;
-}
-body,html{
+body, html{
     margin: 0;
     background-color: #e0e0e0;
-    font-family: 'Ubuntu',sans-serif;
 }
-.logo{
-    height: 60px;
-    width: 60px;
-    margin-left: 1%;
-}
-.indeximages{
-    height: 150px;
-    width: 150px;
-}
-.SocialMediaImage{
-    height: 20px;
-    width: 22px;
-}
+
 header{
     background-color: rosybrown;
-    align-items: center;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    top: 0;
-    position: sticky;
+    align-items: center;
 }
+
 footer{
-    background-color: rosybrown;
     height: 50px;
+    background-color: rosybrown;
     position: sticky;
     bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+A{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}
+
+.login{
+    margin-right: 2%;
+}
+
+.contact{
+    margin-left: 2%;
+    
+}
+
+.copyright{
+    font-size: 10px;
+    order: 2;
+}
+
+.socialmedia{
+    order: 3;
+    margin-right: 2%;
 }
