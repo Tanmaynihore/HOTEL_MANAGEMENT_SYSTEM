@@ -1,0 +1,13 @@
+#div1{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 12px solid #f3f3f3;
+    border-top-color: #444444;
+    border-radius: 50%;
+}
