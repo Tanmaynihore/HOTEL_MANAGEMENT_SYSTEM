@@ -1,4 +1,4 @@
-#SearchImage{
+/* #SearchImage{
 background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
 background-repeat: no-repeat;
 background-size: cover;
@@ -21,4 +21,79 @@ text-align: center;
 .indeximages{
     padding: 4% 4% 4% 4%;
     border-radius: 25%;
+} */
+#SearchImage{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    text-align: center;
 }
+
+#SearchImage1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4em 0;
+}
+
+.cards{
+    height: 100%; 
+    width: 100%;
+    border-radius: 25%;
+    /* box-shadow: 10px 10px 10px blue; */
+}
+
+.card1{
+    height: 100%; 
+    width: 100%;
+    border-radius: 25%;
+    /* box-shadow: 10px 10px 10px blue; */
+}
+#searchbar{
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background-color: #f1f1f1   ;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    width: 24em;
+}
+#SearchImage2{
+    text-align: center;
+    padding-bottom  : 2em;
+}
+
+/* #searchbar:focus{
+    outline: none;  
+} */
+.imgcontainer{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+/* .overlay{
+    border-radius: 25%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+/* .text{
+    position: relative;
+    height: 100%;
+    top: 50%;
+    text-align: center;
+    color: #f1f1f1;
+}
+.imgcontainer:hover .overlay{
+    opacity: 1;
+    
+} */

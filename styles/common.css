@@ -1,12 +1,27 @@
 body,html,#Main{
     height: 100%;
     width: 100%;
-    
-    
+}
+.login{
+    margin-right:2px;
+    order: 3;
+}
+
+.contact{
+    margin-left: 2%;  
+}
+.Copyright{
+    font-size: 10px;
+    order: 2;
+}
+.socialmedia{
+    order: 3;
+    margin-right: 2%;
 }
 body,html{
     margin: 0;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
 .logo{
     height: 60px;
@@ -23,7 +38,18 @@ body,html{
 }
 header{
     background-color: rosybrown;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
 }
 footer{
     background-color: rosybrown;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
