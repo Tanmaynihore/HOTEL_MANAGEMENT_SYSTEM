@@ -1,63 +1,101 @@
-body, html, #mainContainer{
-    height: 100%;
-    width: 100%;
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+/* .content {
+    flex: 1 0 auto;
+} */
+body,
+html,
+#mainContainer {
+  height: 100%;
+  width: 100%;
 }
 
-body, html{
-    margin: 0;
-    background-color: #e0e0e0;
+body,
+html {
+  margin: 0;
+  background-color: #e0e0e0;
 }
 
-header{
-    background-color: rosybrown;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-color: rosybrown;
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 80;
 }
 
-footer{
-    height: 50px;
-    background-color: rosybrown;
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer {
+  height: 60px;
+  background-color: rosybrown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-body, html{
-    font-family: 'Ubuntu', sans-serif;
-    
+body,
+html {
+  font-family: "Ubuntu", sans-serif;
 }
 
-A{
-    text-decoration: none;
-    color: black;
+A {
+  text-decoration: none;
+  color: black;
 }
 
-.logo{
-    height: 50px;
-    width: 50px;
-    margin-left: 1%;
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 1%;
 }
 
-.login{
-    margin-right: 2%;
+#login {
+  right: 0%;
+  margin-top: 10px;
+  margin-right: 2%;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  padding: -0.625rem 0.75rem;
 }
 
-.contact{
-    margin-left: 2%;
-    
+#contact {
+  margin-left: 2%;
 }
 
-.copyright{
-    font-size: 10px;
-    order: 2;
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 2%;
 }
 
-.socialmedia{
-    order: 3;
-    margin-right: 2%;
+.socialmedia {
+  position: absolute;
+  right: 1%;
+  bottom: 32%;
+  margin-right: 2%;
 }
+.login-field {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+#contactus {
+  bottom: 20%;
+  margin-left: 2%;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+}
+/* // Extra small devices (portrait phones, less than 576px) */

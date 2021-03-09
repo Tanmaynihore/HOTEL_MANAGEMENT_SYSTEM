@@ -1,6 +1,12 @@
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
+function myFunction() {
+    var toggle=document.getElementById("vm");
+    if (toggle.textContent === "View More") {
+      document.getElementById("more").style.display="flex";
+      toggle.innerText="View Less";
+    
+   
+  } else {
+    document.getElementById("more").style.display="none";
+    toggle.innerText="View More";
+  }
+  }

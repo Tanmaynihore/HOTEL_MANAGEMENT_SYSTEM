@@ -1,38 +1,38 @@
-#div1{
-    background-color:  rgb(132,136,139);
-    width: 50%;
-    height: 20%;
-    margin: 8% auto 2% auto;
-    display: flex;
+#div1 {
+  background-color: rgb(132, 136, 139);
+  width: 50%;
+  height: 20%;
+  margin: 8% auto 2% auto;
+  display: flex;
 }
 
-#right{
-    padding: 4% 2%;
+#right {
+  padding: 4% 2%;
 }
 
-#div2{
-    margin: 2%;
+#div2 {
+  margin: 2%;
 }
 
-#payNow{
-    margin: 2% 0;
+#payNow {
+  margin: 2% 0;
 }
 
-#content{
-    display: flex;
-    flex-direction: column;
+#content {
+  display: flex;
+  flex-direction: column;
 }
 
-#box{
-    background-color: rosybrown;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 0 2% 10% 2%;
+#box {
+  background-color: rosybrown;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 2% 10% 2%;
 }
 
-.text{
-    font-family: cursive;
+.text {
+  font-family: cursive;
 }

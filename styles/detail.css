@@ -1,6 +1,8 @@
 #div1{
     /* height: 100%; */
     /* margin: 2% 4% 0; */
+    /* height: auto; */
+   
     flex-basis: 70%;
     border: 1px solid black;
     display: flex;
@@ -35,8 +37,7 @@
 
 #adult, #name, #fromDate, #toDate, #price{
     text-align: left;
-    flex-basis: 60%;
-    
+    flex-basis: 60%;   
 
 }
 
@@ -50,4 +51,23 @@
 
 #div3{
     margin: 1% 4% 2%;
+}
+.checked{
+    color: orange;
+}
+.text{
+    font-family: cursive;
+}
+#Bu,#Bu1{
+   display: none;
+    
+}
+
+#unique{
+    background-size: auto;
+}
+
+#so{
+    padding-top: 3em;
+    padding-bottom: 5em;
 }

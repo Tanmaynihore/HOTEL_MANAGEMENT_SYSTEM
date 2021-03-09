@@ -1,39 +1,61 @@
-#card1, #card2, #card3{
-margin: 3% 50px;
-/* background-color:  rgb(132,136,139); */
-background-color: lightgrey ;
-width: 40%;
-display: inline-block;
+#card1,
+#card2,
+#card3 {
+  margin: 3% 50px;
+  /* background-color:  rgb(132,136,139); */
+  background-color: lightgrey;
+  width: 40%;
+  display: inline-block;
 }
 
-
-#list{
-margin-left: auto;
-margin-right: auto;
-width: fit-content;
-padding-left: 0;
+#list {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-left: 0;
 }
 
-li{
-display: inline;
-padding: 20px;
+li {
+  display: inline;
+  padding: 20px;
 }
 
-.li{
-color: black;
-font-weight: bold;
+#li {
+  color: black;
+  font-weight: bold;
 }
 
-#map-view{
+/* #map-view {
+    
 display: none;
-}
+} */
 
+.container:hover {
+  background-color: rosybrown;
+}
 .container {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.right{
-padding: 0.5em 1em 1em 1em;
+.right {
+  padding: 0.5em 1em 1em 1em;
+}
+.checked {
+  color: orange;
 }
 
+#pills-tab {
+  justify-content: center;
+}
+#map {
+  height: 82vh;
+  margin-top: 2%;
+}
+.hhh {
+  margin-top: 4%;
+  padding-bottom: 5em;
+}
+#pills-tab {
+  justify-content: center;
+}
