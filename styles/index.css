@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-#div2 {
+#div2,#ViewMoreTora {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
