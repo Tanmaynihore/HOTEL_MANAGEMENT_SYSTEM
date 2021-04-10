@@ -59,10 +59,18 @@ A {
   right: 0%;
   margin-top: 10px;
   margin-right: 2%;
+  margin-bottom: 7%;
   text-decoration: none;
   position: absolute;
   color: black;
   padding: -0.625rem 0.75rem;
+}
+#contactus {
+  bottom: 20%;
+  margin-left: 2%;
+  text-decoration: none;
+  position: absolute;
+  color: black;
 }
 
 #contact {
@@ -91,11 +99,5 @@ A {
   display: flex;
   flex-direction: column;
 }
-#contactus {
-  bottom: 20%;
-  margin-left: 2%;
-  text-decoration: none;
-  position: absolute;
-  color: black;
-}
+
 /* // Extra small devices (portrait phones, less than 576px) */

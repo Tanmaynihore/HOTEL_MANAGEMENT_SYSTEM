@@ -1,97 +1,96 @@
-#div1{
-    /* height: 100%; */
-    /* margin: 2% 4% 0; */
-    /* height: auto; */
-   
-    /* flex-basis: 70%; */
-    flex-grow: 3;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#div1 {
+  /* height: 100%; */
+  /* margin: 2% 4% 0; */
+  /* height: auto; */
+
+  /* flex-basis: 70%; */
+  flex-grow: 3;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#div2{
-    /* height: 100%; */
-    border: 1px solid black;
-    border-left: none;
-    /* margin: 0 4% 1%; */
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+#div2 {
+  /* height: 100%; */
+  border: 1px solid black;
+  border-left: none;
+  /* margin: 0 4% 1%; */
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-#detailscontainer{
-    margin: 2%;
-    width: 96%;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-
+#detailscontainer {
+  margin: 2%;
+  width: 96%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
 }
 
-.innercontainer{
-    display: flex;
-    justify-content: space-around;
+.innercontainer {
+  display: flex;
+  justify-content: space-around;
 }
 
-#adult, #name, #fromDate, #toDate, #price{
-    text-align: left;
-    flex-basis: 60%;   
-
+#adult,
+#name,
+#fromDate,
+#toDate,
+#price {
+  text-align: left;
+  flex-basis: 60%;
 }
 
-.bookNow{
-    padding: 2%;
+.bookNow {
+  padding: 2%;
 }
 
-.text{
-    font-family: simple;
+.text {
+  font-family: simple;
 }
 
-#div3{
-    margin: 1% 4% 2%;
+#div3 {
+  margin: 1% 4% 2%;
 }
-.checked{
-    color: orange;
+.checked {
+  color: orange;
 }
-.text{
-    font-family: cursive;
+.text {
+  font-family: cursive;
 }
-#Bu,#Bu1{
-   display: none;
-    
-}
-
-#unique{
-    background-size: auto;
+#Bu,
+#Bu1 {
+  display: none;
 }
 
-#so{
-    padding-top: 3em;
-    padding-bottom: 5em;
+#unique {
+  background-size: auto;
 }
-.prev-icon{
- 
-    border-bottom: 6px solid;
-    border-left: 6px solid;
-    transform: rotate(45deg);
-    margin-left: -300px; 
-    color:rosybrown;
-    height: 55px;
-    width: 55px;
-    position: relative;
- }
- 
- .next-icon{
-     
-     border-bottom: 6px solid;
-     border-left: 6px solid;
-     margin-right: -300px;
-     transform: rotate(-135deg);
-     color:rosybrown;
-     height: 55px;
-     width: 55px;
- 
- }
+
+#so {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+.prev-icon {
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  transform: rotate(45deg);
+  margin-left: -300px;
+  color: rosybrown;
+  height: 55px;
+  width: 55px;
+  position: relative;
+}
+
+.next-icon {
+  border-bottom: 6px solid;
+  border-left: 6px solid;
+  margin-right: -300px;
+  transform: rotate(-135deg);
+  color: rosybrown;
+  height: 55px;
+  width: 55px;
+}

@@ -7,11 +7,15 @@
   text-align: center;
 }
 
-#div2,#ViewMoreTora {
+#div2,
+#vmore {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 4em 0;
+}
+#vmore {
+  display: none;
 }
 
 .cards {

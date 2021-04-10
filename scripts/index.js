@@ -1,12 +1,10 @@
-function onclick(){
-    var x=document.getElementById('viewmore');
-    if(x.textContent === "View More"){
-        document.getElementById('ViewMoreTora').style.display="flex";
-        x.innerText="View Less";
-    }
-    else{
-        document.getElementById('ViewMoreTora').style.display="none";
-        x.innerText="View More";
-    }
-
+function view() {
+  var toggle = document.getElementById("vm");
+  if (toggle.textContent === "View More") {
+    document.getElementById("vmore").style.display = "flex";
+    toggle.innerText = "View Less";
+  } else {
+    document.getElementById("vmore").style.display = "none";
+    toggle.innerText = "View More";
+  }
 }

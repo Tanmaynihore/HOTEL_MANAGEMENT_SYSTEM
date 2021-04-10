@@ -7,7 +7,7 @@
     <title>Index</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,14 +18,14 @@
 <body>
     <div id="mainContainer">
 
-        <header  id="header"></header>
-        
+        <header id="header"></header>
+
         <div id="content">
             <div id="div1">
                 <input type="text" placeholder="City" id="searchbar">
             </div>
             <div id="div2">
-                <div class="imgcontainer">
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
                     <a href="list.html"><img
                             src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
                             class="card1">
@@ -34,19 +34,19 @@
                         </div>
                     </a>
                 </div>
-                <div class="imgcontainer">
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" class="cards">
                     <div class="overlay">
                         <div class="text">Goa</div>
                     </div>
                 </div>
-                <div class="imgcontainer">
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="cards">
                     <div class="overlay">
                         <div class="text">Hyderabad</div>
                     </div>
                 </div>
-                <div class="imgcontainer">
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
                         class="cards">
                     <div class="overlay">
@@ -54,44 +54,43 @@
                     </div>
                 </div>
             </div>
-                <div id="ViewMoreTora">
-                    <div class="imgcontainer">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
-                            class="cards">
-                        <div class="overlay">
-                            <div class="text">Chennai</div>
-                        </div>
-                    </div>
-                    <div class="imgcontainer">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg"
-                            class="cards">
-                        <div class="overlay">
-                            <div class="text">Agra</div>
-                        </div>
-                    </div>
-                    <div class="imgcontainer">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
-                            class="cards">
-                        <div class="overlay">
-                            <div class="text">Jaipur</div>
-                        </div>
-                    </div>
-                    <div class="imgcontainer">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
-                            class="cards">
-                        <div class="overlay">
-                            <div class="text">Bengaluru</div>
-                        </div>
+            <div id="vmore">
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
+                        class="cards">
+                    <div class="overlay">
+                        <div class="text">Chennai</div>
                     </div>
                 </div>
-                
-           
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg" class="cards">
+                    <div class="overlay">
+                        <div class="text">Agra</div>
+                    </div>
+                </div>
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
+                        class="cards">
+                    <div class="overlay">
+                        <div class="text">Jaipur</div>
+                    </div>
+                </div>
+                <div class="imgcontainer" class="container1 col-lg-3 col-md-6">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
+                        class="cards">
+                    <div class="overlay">
+                        <div class="text">Bengaluru</div>
+                    </div>
+                </div>
+            </div>
+
+
             <div id="div3">
-                <a href="#" class="btn btn-secondary" target="_self" id="viewmore" onclick="click()">View More</a>
+                <a href="#" class="btn btn-secondary" target="_self" id="vm" onclick="view()">View More</a>
             </div>
         </div>
 
-        <footer id="footer">  </footer>
+        <footer id="footer"> </footer>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
